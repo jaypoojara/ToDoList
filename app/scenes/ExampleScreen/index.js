@@ -8,7 +8,6 @@ import { createStructuredSelector } from 'reselect';
 import { injectIntl } from 'react-intl';
 
 import AppContainer from '@atoms/Container';
-import SimpsonsLoveWednesday from '@organisms/SimpsonsLoveWednesday';
 
 import {
   selectUser,
@@ -55,11 +54,6 @@ class ExampleScreen extends React.Component {
           <ActivityIndicator testID="loader" size="large" color="#0000ff" />
         ) : (
           <View testID="example-container-content">
-            <SimpsonsLoveWednesday
-              instructions={instructions}
-              userErrorMessage={this.props.userErrorMessage}
-              user={this.props.user}
-            />
             <CustomButton onPress={this.requestFetchUser()} title="Refresh" />
           </View>
         )}
