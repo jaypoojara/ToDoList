@@ -5,15 +5,15 @@ import { initialState } from './reducer';
 export const selectExampleDomain = state =>
   (state.example || initialState).toJS();
 
-export const selectUser = () =>
-  createSelector(selectExampleDomain, substate => get(substate, 'user', null));
+export const selectToDoList = () =>
+  createSelector(selectExampleDomain, substate => get(substate, 'toDoList', []));
 
-export const selectUserIsLoading = () =>
+export const selectErrorMessage = () =>
   createSelector(selectExampleDomain, substate =>
-    get(substate, 'userIsLoading', null)
+    get(substate, 'errorMessage', null)
   );
 
-export const selectUserErrorMessage = () =>
+export const selectIsToDoAdded = () =>
   createSelector(selectExampleDomain, substate =>
-    get(substate, 'userErrorMessage', null)
+    get(substate, 'isToDoAdded', null)
   );

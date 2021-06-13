@@ -1,5 +1,5 @@
 import { fork } from 'redux-saga/effects';
-import exampleSaga from '@scenes/ExampleScreen/saga';
+import exampleSaga from '@scenes/ToDoListScreen/saga';
 import startupSaga from '@scenes/RootScreen/saga';
 
 export default function* root() {

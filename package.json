@@ -54,6 +54,7 @@
     "intl": "1.2.5",
     "lodash": "^4.17.21",
     "map-keys-deep": "^0.0.2",
+    "moment": "^2.29.1",
     "prop-types": "^15.7.2",
     "react": "~16.11.0",
     "react-dom": "~16.11.0",
