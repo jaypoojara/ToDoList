@@ -1,19 +1,3 @@
-<div>
-  <p>
-    <h1 align="left">React Native Template
-    </h1>
-  </p>
-
-  <p>
-An enterprise React Native template application showcasing - Testing strategies, Global state management, middleware support, a network layer, component library integration, localization, navigation configuration, and Continuous integration.
-  </p>
-  <p>
-    <h4>
-      Expert teams of digital product strategists, developers, and designers.
-    </h4>
-  </p>
-</div>
-
 ## Architecture
 
 The driving goal of the architecture of the template is separation of concerns. Namely:
